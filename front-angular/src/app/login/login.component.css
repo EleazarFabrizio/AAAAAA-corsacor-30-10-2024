@@ -1,0 +1,104 @@
+.body {
+  background-image: url(img/FondoCorsacor.jpg);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para el contenedor del título */
+.titulo {
+  width: 100%; 
+  text-align: center; 
+  margin: 0; 
+}
+
+.container{
+  width: 90%;
+}
+
+/* Estilo para el h1 */
+h1 {
+  background-color: #CC5600;
+  color: #ffffff; 
+  padding: 1rem;
+  margin: 0; 
+  box-sizing: border-box; 
+  width: 100%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0;    
+    border-bottom-right-radius: 0;
+}
+
+/* Estilos del formulario */
+.form {
+  --bg-light: #ffffff; /* Fondo blanco */
+  --bg-dark: #000000; /* Color principal para los detalles */
+  --clr: #CC5600; /* Color principal para detalles y bordes */
+  --clr-alpha: #f5f5f5; /* Fondo muy claro para los campos */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--bg-light); 
+  height: 50vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 1rem; 
+
+  border-top-left-radius: 0;         
+  border-top-right-radius: 0;        
+  border-bottom-left-radius: 0.5rem; 
+  border-bottom-right-radius: 0.5rem;
+
+}
+.input-span {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
+.form input[type="text"],
+.form input[type="password"] {
+    border-radius: 0.5rem; 
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: 1px solid #CC5600; 
+    background-color: #f9f9f9; 
+    outline: none; 
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus {
+    border-color: #CC5600; 
+}
+
+.label {
+  align-self: center;
+  color: var(black); 
+  font-weight: 600;
+}
+
+.submit {
+  padding: 1rem 0.75rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  background-color: #CC5600; 
+  color: white; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 300ms;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.submit:hover {
+  background-color: #a14a00; 
+}
+
